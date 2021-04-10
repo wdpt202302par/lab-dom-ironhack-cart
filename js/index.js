@@ -73,7 +73,6 @@ function createProduct() {
   const $tr = document.createElement('tr');
   $tr.className = 'product';
   $tr.innerHTML = `
-  <tr class="product">
     <td class="name">
       <span>${$name.value}</span>
     </td>
@@ -85,7 +84,6 @@ function createProduct() {
     <td class="action">
       <button class="btn btn-remove">Remove</button>
     </td>
-  </tr>
   `;
   $tbody.appendChild($tr);
 
